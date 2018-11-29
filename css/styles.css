@@ -108,13 +108,13 @@ img {
 
 
 .content h1 {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.9); /* Black w/opacity/see-through */
+  background-color: rgb(255,255,255); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 60%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -122,5 +122,23 @@ img {
   padding: 20px;
   text-align: center;
 }
+
+.urban-hunter {
+  background-color: rgb(255,255,255); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 60%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+}
+
+
 
 /* STYLES/BUTTON HOVERS/EFFECTS */

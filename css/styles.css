@@ -1,6 +1,11 @@
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 html, body {
   height: 100%;
 }
+
 
 body {
   /* background-image: url("https://i.imgur.com/wJT8dV2.jpg"); */
@@ -11,7 +16,7 @@ body {
 
 
 .profile {
-  background-color: blue;
+  background-color: #202021;
   -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
 }
@@ -39,14 +44,24 @@ svg:hover {
 
 
 .profile-picture {
-  background-image: url(".mgs/46277212_480068355818204_610608516855496704_n.jpg")
   box-sizing: border-box;
-  background-color: white;
-  width: 70%;
-  height: 30%;
+  /* max-width: 100%;
+  max-height: 100%; */
   margin: 50px auto;
-  border-radius: 50%;
 }
+
+/* why doent inline block work with margin auto? */
+img {
+  width: 75%;
+  height: 75%;
+  margin: 0px auto;
+  display: block;
+  border-radius: 50%;
+  border: 5px solid white;
+  background-size: auto;
+  text-align: center; */
+}
+
 
 .gmail, .github, .linkedin {
   height: 60px;
@@ -94,7 +109,7 @@ svg:hover {
 
 .content h1 {
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
